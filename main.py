@@ -33,7 +33,8 @@ async def on_message(message):
     return
   if ("bot") in message.content:
     current_messager = messager
-    CreateIp(random.randint(3,5))
+    await message.channel.send(random.choice(ans.bot))
+    CreateIp(random.randint(1,3))
     for ip in ips:
       await message.channel.send(ip)
     await message.channel.send(current_messager.mention + " " + random.choice(ans.ip))

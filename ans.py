@@ -42,6 +42,10 @@ authfail = [
   "LMAO UR NOT AN ADMIN RETARD", "u don't have access to this command + ratio 💀💀", "access denied nerd", "I don't think I will 😚", "shut the fuck up u little peasant", "Contact "+egeglid+" if u really want to access that buddy : )", "are u trying to give me orders u little shitter? XD=?XDx?dxd??dXd?"
 ]
 
+bot = [
+  "BOT DEĞİLİM APTAL", "BOT MU?", "BANA NE DEDİN AZ ÖNCE?", "sen... bana bot mu dedin???", "aptal orsbucocu bot deme bana", "BOT DEĞİLİM AQQ", "BOT DEMEEEEE", "SENSİN BOT OÇ", "SEN = BOT", "kes lan amınakodumun salağı sen benden çok botsun yarrama bak"
+]
+
 bruhreaction = [
   meymenetsiztrollemoji+" bruh", "bruh", "bruh "+nopeemoji
   ]
