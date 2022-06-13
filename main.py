@@ -9,7 +9,7 @@ env = {
     "BOT_TOKEN": os.environ['BOT_TOKEN']
 }
 
-version = "1.0.0"
+version = "1.0.1"
 ips = []
 stfu = False
 
