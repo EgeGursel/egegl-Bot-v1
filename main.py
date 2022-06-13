@@ -37,8 +37,7 @@ async def on_message(message):
     CreateIp(random.randint(1,3))
     for ip in ips:
       await message.channel.send(ip)
-    await message.channel.send(current_messager.mention + " " + random.choice(ans.ip))
-    await message.channel.send(random.choice(ans.kys))
+    await message.channel.send(current_messager.mention + " " + random.choice(ans.ip) + " " + random.choice(ans.kys))
   if random.randint(1, 100) < 10:
     await message.channel.send(random.choice(ans.idk))
   elif random.randint(1, 100) > 90:
