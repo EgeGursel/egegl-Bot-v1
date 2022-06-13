@@ -132,7 +132,7 @@ async def talk(ctx):
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send("pong: version **" + version + "**")
+    await ctx.send("version **" + version + "**")
 
 def CreateIp(index):
   ips.clear()
