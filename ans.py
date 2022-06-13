@@ -155,6 +155,10 @@ ip = [
   "?", "see you tonight :)", "", "shouldn't have messed with me bud...", "🚬", ":'D", "XD?xd?d?x?xd?xXD?XDDDD???", ":)", "😙", "IM INSIDE UR WALLS", "cba c u tonite at 3AM loser 😈", "L + RATIO"  
 ]
 
+ip2 = [
+  "oç", "götünü sikeyim", "aptal orsbucocu", "amınakoyim", "kendini... öldür.", "KYS BITCHHHHHHDSASHDADHADVCX", "KENDİNİ ÖLDÜR!", "KYS!!!", kysemoji, kysemoji*5
+]
+
 stfu = [
   "whatever u say bossman 👍", "sure <3", "anything for u :3", "okie, cya :D", "sowwy if I talked too much, i'll shut up now >.<", "okie", "👍"
 ]
