@@ -9,6 +9,7 @@ env = {
     "BOT_TOKEN": os.environ['BOT_TOKEN']
 }
 
+version = "1.0.0"
 ips = []
 stfu = False
 
@@ -23,7 +24,7 @@ async def on_message(message):
   await bot.process_commands(message)
   message.content = message.content.lower()
   messager = message.author
-  if messager == bot.user or message.author.bot or stfu:
+  if message.author.bot or stfu:
     return
   if message.content.startswith("-e"):
     await message.channel.send("https://cdn.discordapp.com/attachments/945230841372626954/983071545004023818/Mio_Honda_telling_you_to_shutup_lol.mp4 \n check out this vid!")
@@ -128,6 +129,10 @@ async def talk(ctx):
     return
   stfu = False
   await ctx.send(random.choice(ans.ily))
+
+@bot.command()
+async def ping(ctx):
+    await ctx.send("pong: version **" + version + "**")
 
 def CreateIp(index):
   ips.clear()
