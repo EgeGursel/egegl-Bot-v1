@@ -131,6 +131,18 @@ async def talk(ctx):
   await ctx.send(random.choice(ans.ily))
 
 @bot.command()
+async def delete(ctx, arg):
+  if str(ctx.message.author) != ans.user_egegl:
+    await ctx.message.add_reaction(emoji=random.choice(ans.middlefinger))
+    await ctx.send(random.choice(ans.authfail))
+    return
+  clear_int = int(arg)
+  channel_name = ctx.channel.mention
+  await ctx.channel.purge(limit=clear_int+1)
+  clear_embed=discord.Embed(description=channel_name+" kanalından **"+arg+"** mesaj silindi.",color=discord.Color.red())
+  await ctx.send(embed=clear_embed)
+
+@bot.command()
 async def ping(ctx):
     await ctx.send("version **" + version + "**")
 
