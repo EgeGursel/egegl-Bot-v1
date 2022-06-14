@@ -138,9 +138,8 @@ async def delete(ctx, arg):
     return
   clear_int = int(arg)
   channel_name = ctx.channel.mention
-  await ctx.channel.purge(limit=clear_int+1)
-  clear_embed=discord.Embed(description=channel_name+" kanalından **"+arg+"** mesaj silindi.",color=discord.Color.red())
-  await ctx.send(embed=clear_embed)
+  await ctx.channel.purge(limit=clear_int + 1)
+  await ctx.send(description=channel_name + " kanalındaki son **" + arg + "** mesaj silindi.")
 
 @bot.command()
 async def ping(ctx):
